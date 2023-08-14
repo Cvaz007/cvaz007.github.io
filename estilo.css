@@ -504,6 +504,9 @@ footer {
   .habilidades .fila {
     display: inline-block;
   }
+  .imagenLogo div:hover .imagen{
+	width: 35%;	
+}
   .trabajos nav a {
     margin: 0 5px;
   }
