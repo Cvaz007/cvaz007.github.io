@@ -183,10 +183,11 @@ body {
 .servicios h3 {
   margin-bottom: 20px;
 }
-.servicios .card p {
+.servicios .card .contenidoCard {
   color: #8d8d8d;
-  line-height: 28px;
+  line-height: 24px;
   font-size: 12px;
+  text-align: left;
 }
 .servicios .card a {
   text-decoration: none;
@@ -204,7 +205,19 @@ body {
 	z-index: 20;
 }
 .imagenLogo div:hover .imagen{
-	width: 15%;	
+	width: 13%;	
+}
+.imagenLogo div:hover .imagen2 {
+  width: 7%;	
+}
+.imagenLogo div:hover .imagen3{
+  width: 7%;	
+}
+.imagenLogo div:hover .imagen4{
+  width: 9%;	
+}
+.imagenLogo div:hover .imagen5{
+  width: 9%;	
 }
 .habilidades .imagenLogo:hover{
     color: #191c3200;   
@@ -326,11 +339,18 @@ width: 0;
   display: inline-block;
   border: 2px solid #8d8d8d;
   margin: 0 3px;
-  padding: 0 5px;
+  padding: 0 3px;
+}
+.trabajos .galeria .item .info p {
+  color: #8d8d8d;
+  display: inline-block;
+  margin-top: 6px;
+  text-align: justify;
 }
 .trabajos .galeria .item .info a {
   display: block;
   margin: 20px;
+  margin-top: 0;
   text-decoration: none;
   color: #007be5;
   font-weight: bold;
